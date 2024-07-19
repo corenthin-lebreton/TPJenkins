@@ -3,4 +3,6 @@
 
 	echo "Test commit"
 
+	echo "test déclenchement automatique"
+
 ?>
