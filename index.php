@@ -1,10 +1,6 @@
-<?php 
-	echo "Hello world"
-
-	echo "Test commit"
-
-	echo "test déclenchement automatique"
-
-	echo "test déclenchement automatique 2"
-	echo "test déclenchement automatique 3"
+<?php
+$m = new mysqli("localhost", "user", "password", "db01");
+$m->query("SELECT * FROM users WHERE username='admin' AND 
+password='".$_REQUEST["pwd"]."'");
+$m->close();
 ?>
