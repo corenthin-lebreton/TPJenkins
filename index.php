@@ -5,4 +5,5 @@
 
 	echo "test déclenchement automatique"
 
+	echo "test déclenchement automatique 2"
 ?>
