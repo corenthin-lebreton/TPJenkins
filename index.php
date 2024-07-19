@@ -1,5 +1,5 @@
 <?php
-#test modification 3
+#test modification 34
 $m = new mysqli("localhost", "user", "password", "db01");
 $m->query("SELECT * FROM users WHERE username='admin' AND 
 password='".$_REQUEST["pwd"]."'");
